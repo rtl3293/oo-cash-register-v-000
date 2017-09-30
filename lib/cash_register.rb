@@ -8,7 +8,6 @@ class CashRegister
     @items = []
   end
 
-  def last_amount
 
   def add_item(item, cost, quantity = 1)
     @last_amount = (cost * quantity)
