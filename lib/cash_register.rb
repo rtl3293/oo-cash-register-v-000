@@ -12,7 +12,7 @@ class CashRegister
     @last_amount = (cost * quantity)
     @total += @last_amount
     quantity.times {@items << item}
-    
+
   end
 
   def apply_discount
